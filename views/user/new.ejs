@@ -1,0 +1,18 @@
+<div class="container">
+    <form class="form" action="/user/create" method="POST">
+        <h1>Create your sailor</h1>
+
+        <input class="form-control" type="text" name="fname" placeholder="First Name"/>
+        <input class="form-control" type="text" name="lname" placeholder="Last Name"/>
+
+        <input class="form-control" type="text" name="username" placeholder="Username" required/>
+        <input class="form-control" type="email" name="email" placeholder="Email" required/>
+
+        <input class="form-control" type="password" name="password" placeholder="Password" required/>
+        <input class="form-control" type="password" name="passwordVerification" placeholder="Verify your password" required/>
+
+        <hr/>
+        <input class="btn btn-lg btn-success" type="submit" value="Submit"/>
+        <input type="hidden" name="_csrf" value="<%= _csrf %>"/>
+    </form>
+</div>

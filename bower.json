@@ -1,0 +1,12 @@
+{
+  "name": "Sails102",
+  "version": "0.0.0",
+  "authors": [
+    "arturomc <4rturo.m.c@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+    "dependencies":{
+        "bootstrap":"latest"
+    }
+}
